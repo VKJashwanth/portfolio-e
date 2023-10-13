@@ -1,3 +1,4 @@
+"use client"
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
@@ -19,7 +20,7 @@ const Home: NextPage = () => {
 			<main className="bg-white px-10 overflow-x-hidden dark:bg-gray-900 md:px-20 lg:px-40 ">
 				<section className="min-h-screen">
 					<nav className="py-10 mb-12 flex justify-between dark:text-white">
-						<h1 className="text-xl sm:text-small pr-4  md:text-xl ml-1  ">TheCleverCoder777</h1>
+						<h1 className="text-xl sm:text-small pr-4  md:text-xl ml-1  ">Sarvesh - The E Monkey</h1>
 						<ul className="flex items-center">
 							<li>
 								<BsFillMoonStarsFill
@@ -31,7 +32,7 @@ const Home: NextPage = () => {
 						</ul>
 					</nav>
 					<div className="text-center p-10">
-						<h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">V.K. Jashwanth</h2>
+						<h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">Sarvesh</h2>
 						<h3 className="text-2xl py-2 pb-4 pt-5 dark:text-white md:text-3xl whitespace-nowrap">Front-End-Developer</h3>
 						<p className="text-md py-5 leading-8 dark:text-gray-200 max-w-xl mx-auto md:text-xl">Python, HTML/CSS/JS, React, NextJS, TailwindCSS, NodeJS, ExpressJS, and Typescript</p>
 					</div>
