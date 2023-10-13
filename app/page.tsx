@@ -12,11 +12,6 @@ const Home: NextPage = () => {
 	const [darkMode, setDarkMode] = useState(true)
 	return (
 		<div className={darkMode ? "dark" : ""}>
-			<Head>
-				<title>Sarvesh the E Monkey</title>
-				<link rel="icon" href="/jashwanth.png" />
-			</Head>
-
 			<main className="bg-white px-10 overflow-x-hidden dark:bg-gray-900 md:px-20 lg:px-40 ">
 				<section className="min-h-screen">
 					<nav className="py-10 mb-12 flex justify-between dark:text-white">
@@ -28,12 +23,12 @@ const Home: NextPage = () => {
 									className=" cursor-pointer text-4xl sm:pl-4 "
 								/>
 							</li>
-							<li><a href="#" className=" bg-gradient-to-r  from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-5">Resume</a></li>
+							<li><a href="#" className=" bg-gradient-to-r  from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-5">Proxies</a></li>
 						</ul>
 					</nav>
 					<div className="text-center p-10">
 						<h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">Sarvesh</h2>
-						<h3 className="text-2xl py-2 pb-4 pt-5 dark:text-white md:text-3xl whitespace-nowrap">Front-End-Developer</h3>
+						<h3 className="text-2xl py-2 pb-4 pt-5 dark:text-white md:text-3xl whitespace-nowrap">Developer? and Proxies Creator</h3>
 						<p className="text-md py-5 leading-8 dark:text-gray-200 max-w-xl mx-auto md:text-xl">Python, HTML/CSS/JS, React, NextJS, TailwindCSS, NodeJS, ExpressJS, and Typescript</p>
 					</div>
 					<div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
@@ -48,7 +43,7 @@ const Home: NextPage = () => {
 				<section>
 					<div className="bg-white text-center dark:bg-gray-900">
 						<h2 className="text-3xl py-1 dark:text-white pt-9 pb-5 ">About Me:</h2>
-						<p className="text-md py-2 leading-8 dark:text-gray-200  ">Currently, I am in <span className="text-teal-500">8th grade</span> and enjoy coding and creating projects. I have also created several websites and web applications. I am excited to continue learning and creating more projects in the future. I am learning <span className="text-teal-500">React and NextJS</span> and look forward to creating more complex projects with this language. Join me down below and let's get working! I am also eager to apply my knowledge and skills in this field to help make a difference in the world. I am passionate about creating products that can have a <span className="text-teal-500">positive impact</span> on society, and I believe that coding is the way to do it! Let's get coding!</p>
+						<p className="text-md py-2 leading-8 dark:text-gray-200  ">I am in 7th Grade and I like to create proxies. I even code HTML, CSS and JS. I usually focus on Python and am focusing on JavaScript right now.</p>
 					</div>
 					<div className="dark:text-white">
 						<div className="text-center shadow-lg p-10 rounded-xl my-10">
