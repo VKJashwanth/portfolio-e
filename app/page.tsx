@@ -7,6 +7,7 @@ import { BsFillMoonStarsFill } from "react-icons/bs"
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai"
 // import jashwanth from "../public/jashwanth.png"
 import { SiReplit } from "react-icons/si";
+import Link from 'next/link';
 
 const Home: NextPage = () => {
 	const [darkMode, setDarkMode] = useState(true)
@@ -23,7 +24,7 @@ const Home: NextPage = () => {
 									className=" cursor-pointer text-4xl sm:pl-4 "
 								/>
 							</li>
-							<li><a href="#" className=" bg-gradient-to-r  from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-5">Proxies</a></li>
+							<li><Link href={"/about/MyProxies"} className=" bg-gradient-to-r  from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-5"> Proxies </Link></li>
 						</ul>
 					</nav>
 					<div className="text-center p-10">
