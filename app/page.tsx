@@ -30,15 +30,14 @@ const Home: NextPage = () => {
 					<div className="text-center p-10">
 						<h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">Sarvesh</h2>
 						<h3 className="text-2xl py-2 pb-4 pt-5 dark:text-white md:text-3xl whitespace-nowrap">Developer? and Proxies Creator</h3>
-						<p className="text-md py-5 leading-8 dark:text-gray-200 max-w-xl mx-auto md:text-xl">Python, HTML/CSS/JS, React, NextJS, TailwindCSS, NodeJS, ExpressJS, and Typescript</p>
+						<p className="text-md py-5 leading-8 dark:text-gray-200 max-w-xl mx-auto md:text-xl">Python, Javascript, HTML, CSS</p>
 					</div>
 					<div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-						<a href="https://www.linkedin.com/in/jashwanth-viswanath-karanam-308634260/" target="_blank" className="hover:brightness-150 hover:shadow-xl"><AiFillLinkedin /></a>
 						<a href="https://github.com/VKJashwanth" target="_blank" className="hover:brightness-150 hover:shadow-xl"><AiFillGithub /></a>
-						<a href="https://replit.com/@VKJashwanth" target="_blank" className="hover:brightness-150 hover:shadow-xl"><SiReplit /></a>
+						<a href="https://replit.com/@TheCleverCoder777" target="_blank" className="hover:brightness-150 hover:shadow-xl"><SiReplit /></a>
 					</div>
 					<div className="relative mx-auto bg-gradient-to-b from-teal-500 to-cyan-600 rounded-full w-80 h-82 mt-20 overflow-hidden">
-						{/* <Image src={jashwanth} /> */}
+						{/* <Image src={jashwanth} alt='image'/> */}
 					</div>
 				</section>
 				<section>
